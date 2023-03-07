@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bootstrap-sass
+  tags:
+    - external
+    - fork
+    - public
+    - ruby
+  annotations:
+    github.com/project-slug: Thinkei/bootstrap-sass
+spec:
+  type: service
+  system: core-technology
+  lifecycle: production
